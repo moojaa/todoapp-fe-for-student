@@ -1,1 +1,1 @@
-/api/* http://todolist-demo-app.ap-southeast-2.elasticbeanstalk.com/api/:splat 200
+/api/* http://todo-demo-env.eba-dsr3dnaf.ap-northeast-2.elasticbeanstalk.com/api/:splat 200
