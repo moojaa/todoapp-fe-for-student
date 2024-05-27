@@ -1,1 +1,3 @@
 /api/* http://todo-demo-env.eba-dsr3dnaf.ap-northeast-2.elasticbeanstalk.com/api/:splat 200
+
+/*    /index.html    200
