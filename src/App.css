@@ -91,3 +91,7 @@ button{
   color: #ffffff;
   border:none;
 }
+
+.button-logout{
+  cursor: pointer;
+}

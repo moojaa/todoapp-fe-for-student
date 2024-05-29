@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 
-const TodoPage = () => {
+const TodoPage = ({logout}) => {
   const [todoList, setTodoList] = useState([]);
   const [todoValue, setTodoValue] = useState("");
 
@@ -58,6 +58,9 @@ const TodoPage = () => {
   };
   return (
     <Container>
+      <div className="d-flex justify-content-end">
+      <div onClick={logout} className="mt-2 button-logout">로그아웃</div>
+      </div>
       <Row className="add-item-row">
         <Col xs={12} sm={10}>
           <input
